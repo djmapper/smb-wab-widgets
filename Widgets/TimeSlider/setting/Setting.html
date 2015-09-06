@@ -1,0 +1,27 @@
+<div style="width:100%;height:100%;">
+  <div class="settings-section" data-dojo-attach-point="searchesSection">
+    <table class="setting-table input-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="first">${nls.format}</td>
+          <td class="second">
+            <select style="margin-left: 10px;" data-dojo-attach-point="selectFormat" data-dojo-type="dijit/form/Select">
+              <option value="d MMM, yyyy">Simple</option>
+              <option value="d MMMM, yyyy">Full</option>
+              <option value="dd-MM-yyyy">Date</option>
+              <option value="yyyy">Year</option>
+              <option value="hh:mm:ss a z">Time</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="first">${nls.showLayerLabels}</td>
+          <td class="second">
+            <input style="margin-left: 10px;" data-dojo-attach-point="showLabelsBox"
+            data-dojo-type="dijit/form/CheckBox"/>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

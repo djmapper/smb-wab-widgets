@@ -1,0 +1,27 @@
+/* jimu-widget-landAnalysis-setting */
+.jimu-widget-landAnalysis-setting{
+  margin:0;
+  padding:0;
+  font-size:15px;
+}
+.jimu-widget-landAnalysis-setting .dijitArrowButtonContainer{
+  width: 17px;
+}
+
+.jimu-widget-landAnalysis-setting .setting-table > thead > tr > th,
+.jimu-widget-landAnalysis-setting .setting-table > tbody > tr > td{
+  height:40px;
+  line-height:40px;
+  vertical-align:middle;
+}
+
+.jimu-widget-landAnalysis-setting .input-table > tbody > tr > .first{
+  width:auto;
+  text-align: right;
+  padding-right:15px;
+  min-width: 200px;
+}
+
+.jimu-widget-landAnalysis-setting .input-table > tbody > tr > .second{
+  width:650px;
+}

@@ -1,0 +1,13 @@
+{
+	"model":{
+		"configText": "test",
+		"renUrl": "http://s1-support.cloud.eaglegis.co.nz/arcgis/rest/services/LRIS/LRIS/MapServer/",
+		"landUrl": "http://s1-support.cloud.eaglegis.co.nz/arcgis/rest/services/LRIS/LandcoverSimple/GPServer/Landcover%20Analysis%20Simple",
+		"soilUrl": "http://s1-support.cloud.eaglegis.co.nz/arcgis/rest/services/LRIS/SoilSimple/GPServer/Soil%20Analysis%20Simple",
+		"gpUrl": "http://s1-support.cloud.eaglegis.co.nz/arcgis/rest/services/LRIS/LandcoverSimple/GPServer/Landcover%20Analysis%20Simple",
+		"landHelpUrl": "http://s1-support.cloud.eaglegis.co.nz/arcgis/rest/directories/arcgisoutput/LRIS/LandcoverSimple_GPServer/LRIS_LandcoverSimple/Landcover2.htm",
+		"isSynchronous": true,
+		"layerSelection": ""
+	},
+	"isPopupExecute": false
+}

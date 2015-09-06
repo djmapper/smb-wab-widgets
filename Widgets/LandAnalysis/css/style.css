@@ -1,0 +1,107 @@
+.jimu-widget-landAnalysis{
+  height: 100%;
+  
+  font-size: 14px;
+}
+.jimu-widget-landAnalysis .jimu-viewstack{
+  padding: 14px;
+}
+.jimu-widget-landAnalysis .section{
+  overflow: visible;
+}
+.jimu-widget-landAnalysis .opts [class*="col"]{
+  height: 45px;
+}
+.jimu-widget-landAnalysis .opts a.help{
+  line-height: 45px;
+}
+.jimu-widget-landAnalysis .section.opts{
+  margin-top: 20px;
+}
+.jimu-widget-landAnalysis .section .jimu-btn{
+  float: none;
+  margin: auto;
+  width: 100px;
+}
+.jimu-widget-landAnalysis .info{
+  display: none;
+  height: 80px;
+  position: relative;
+}
+.jimu-widget-landAnalysis .info .text{
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.jimu-draw-box .triangle-icon{
+display: none !important;
+}
+
+.jimu-widget-landAnalysis .input-node, .jimu-widget-landAnalysis .output-node{
+  overflow: visible;
+  margin-top: 30px;
+}
+.jimu-widget-landAnalysis .input-node>.input-label, .jimu-widget-landAnalysis .output-node>.output-label{
+  overflow: hidden;
+  font-size: 14px;
+  color: #686868;
+  font-weight: bold;
+}
+
+.jimu-widget-landAnalysis li{
+  list-style: none;
+}
+
+.jimu-widget-landAnalysis .editor-container {
+  margin-top: 5px;
+  width: 100%;
+
+}
+.TabTheme .jimu-widget-landAnalysis .jimu-tab>.control>.tab.jimu-state-selected{
+  border-top: 0;
+}
+.jimu-widget-landAnalysis .selectField {
+  width: 100%;
+}
+.jimu-widget-landAnalysis .selectLayer {
+  width: 100%;
+}
+.TabTheme .jimu-widget-landAnalysis .jimu-tab>.control>.tab.jimu-state-selected{
+  border-top: 0;
+}
+.jimu-widget-landAnalysis .chart {
+	padding: 10px;
+}
+.jimu-widget-landAnalysis .doughnut-legend {
+  list-style: none;
+  position: absolute;
+  left: 8px;
+  top: 300px;
+}
+.jimu-widget-landAnalysis .doughnut-legend li {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  padding: 2px 8px 2px 28px;
+  font-size: 14px;
+  cursor: default;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+.jimu-widget-landAnalysis .doughnut-legend li:hover {
+  background-color: #fafafa;
+}
+.jimu-widget-landAnalysis .doughnut-legend li span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
