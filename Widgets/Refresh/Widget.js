@@ -8,8 +8,7 @@ function(declare, array, BaseWidget, _WidgetsInTemplateMixin) {
     templateString: '<div class="jimu-btn" data-dojo-attach-point="exeNode" data-dojo-attach-event="click:_refreshLayers">Refresh</div>',
 
     _refreshLayers: function(){
-      //alert(this.map.id);
-      //console.log(this.map)
+
       this.map.infoWindow.hide()
       var opLayers = this.map.itemInfo.itemData.operationalLayers
       array.forEach(opLayers, function(opLayer) {
