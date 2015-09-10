@@ -1,6 +1,4 @@
-# smb-wab-widgets
-
-## Web AppBuilder Widgets
+# Web AppBuilder Widgets
 
 * Demo
  - Demo widget with 
