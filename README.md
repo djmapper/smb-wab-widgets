@@ -1,7 +1,8 @@
 # Web AppBuilder Widgets
 
 * Demo
- - Demo widget with 
+ - Demo widget
+ - Updates panel with extent and map ceter on extent change
 * Land Analysis
  - Executes geoprocessing tool with Analysis logic. 
  - Draw area and analyse sMap/LCDC
