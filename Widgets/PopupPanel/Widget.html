@@ -1,0 +1,20 @@
+<div>
+<div id="header" data-dojo-type="dijit/layout/ContentPane"
+		data-dojo-props="region:'top'">
+		<div id="featureCount" style="margin-bottom:5px;">Click to select feature(s)</div>
+		<div id="pager" style="display:none;">
+				<a href='javascript:void(0);' id ="previous" data-dojo-attach-point="previous" class='nav' style="text-decoration: none;">
+						&lt; Prev
+				</a>
+				&nbsp;
+				<a href='javascript:void(0);' id="next" data-dojo-attach-point="next" class='nav'  style="text-decoration: none;">
+						Next &gt;
+				</a>
+		</div>
+</div>
+<div data-dojo-attach-point="panelContent" id="panel">
+<div data-dojo-attach-point="popupInfo" name="popupInfo" id="popup" data-dojo-type="dijit/layout/ContentPane"></div>
+<div id="slider">
+	  <div id="slides"></div>
+</div>
+</div>
