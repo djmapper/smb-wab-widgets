@@ -13,3 +13,7 @@
 * Time Slider
  - Extend time slider configurable options
  - Under construction
+* Popup Panel
+ - Displays popup information in panel
+ - Port of Esri sample
+ - Future : add attachment image carousel
