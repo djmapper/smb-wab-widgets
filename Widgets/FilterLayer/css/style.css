@@ -1,0 +1,30 @@
+
+h3 { margin: 0 0 5px 0; border-bottom: 1px solid #444; }
+.label { display: inline-block; width: 140px; }
+
+.jimu-widget-filter{
+  margin:0;
+  padding:0;
+  font-size:15px;
+}
+.jimu-widget-filter .dijitArrowButtonContainer{
+  width: 17px;
+}
+
+.jimu-widget-filter .setting-table > thead > tr > th,
+.jimu-widget-filter .setting-table > tbody > tr > td{
+  height:40px;
+  line-height:40px;
+  vertical-align:middle;
+}
+
+.jimu-widget-filter .input-table > tbody > tr > .first{
+  width:20px;
+  text-align: left;
+  padding-right:5px;
+  
+}
+
+.jimu-widget-filter .input-table > tbody > tr > .second{
+  width:650px;
+}
