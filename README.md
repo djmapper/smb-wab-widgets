@@ -2,9 +2,9 @@
 
 * Demo
  - Demo widget
- - Updates panel with extent and map ceter on extent change
+ - Updates panel with extent and map center on extent change
 * Land Analysis
- - Executes geoprocessing tool with Analysis logic. 
+ - Executes geoprocessing tool with Analysis logic.
  - Draw area and analyse sMap/LCDC
  - Returns graph displaying summary
  - Can be executed from popup using selected feature area

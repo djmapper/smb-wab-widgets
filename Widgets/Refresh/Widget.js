@@ -12,7 +12,7 @@ function(declare, array, BaseWidget, _WidgetsInTemplateMixin) {
       this.map.infoWindow.hide()
       var opLayers = this.map.itemInfo.itemData.operationalLayers
       array.forEach(opLayers, function(opLayer) {
-        if(opLayer.layerType = 'ArcGISFeatureLayer') {
+        if(opLayer.layerType === 'ArcGISFeatureLayer') {
           opLayer.layerObject.refresh()
           //alert("refreshed Layer: " + opLayer.title)
         }
